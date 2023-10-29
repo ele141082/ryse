@@ -96,6 +96,10 @@ html {
     gap: 2rem;
 }
 
+.col-row {
+    display: flex;
+}
+
 .flex-col {
     display: flex;
 }
@@ -126,9 +130,7 @@ html {
 }
 
 .col-70 {
-    display: flex;
     margin: 1rem;
-   
 }
 
 .col-40 {
@@ -181,4 +183,26 @@ html {
     width: 70px;
     height: 70px;
     margin: 1rem;
+}
+
+.col-first .col-70 .button-more button,
+.col-first .col-70 .button-now button {
+    margin-top: 1rem;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 16px 38px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.col-first .col-70 .button-more button {
+    background-color: var(--orange);
+    margin-top: 1rem;
+}
+
+.col-first .col-70 .button-now button{
+    background-color: var(--blue);
+    margin-top: 1rem;
 }
