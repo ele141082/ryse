@@ -63,7 +63,7 @@ html {
 
 .icon-item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-left: 1rem;
 }
 
@@ -142,6 +142,10 @@ html {
     width: 60%;
 }
 
+.col-50 {
+    width: 50%;
+}
+
 .img, svg {
     width: 100%;
 }
@@ -207,11 +211,11 @@ html {
     margin-top: 1rem;
 }
 
-.jumbo-title-main {
+.jumbo-best-third {
     font-size: 15px;
     font-weight: 400;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 4.5px;
+    padding-bottom: 4.5px;
 }
 
 .jumbo-best {
@@ -221,7 +225,113 @@ html {
 }
 
 .jumbo-best-second {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
+    
 
+}
+
+.row-square {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.square-text {
+    display: flex;
+    color: var(--blue);
+}
+
+.work {
+    margin-left: 1rem;
+}
+
+.col-33 {
+    width: 33%;
+}
+
+.col-25 {
+    display: flex;
+    width: 25%;
+    color: white;
+   
+}
+
+.col-25-blue {
+    background-color: var(--blue);
+}
+
+.col25 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.span {
+    font-size: 30px;
+    margin-top: 1rem;
+}
+
+.p-span {
+    margin-top: 0.5rem;
+}
+
+.svg-25 {
+    font-size: 20px;
+}
+
+.btn-more-service {
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: white;
+    background-color: var(--orange);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.col-more {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.col-35 {
+    width: 35%;
+}
+
+.col-search {
+    display: flex;
+}
+
+.col-35 h2 {
+    font-size: medium;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: var(--blue);
+}
+
+.col-35 h3 {
+    margin-bottom: 1rem;
+    color: var(--blue);
+}
+ 
+.img-search {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.blue-row {
+    width: 100%;
+    height: 300px;
+    margin-top: 5rem;
+    background-color: var(--blue);
 }
